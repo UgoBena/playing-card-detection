@@ -6,7 +6,7 @@ from imutils.video import VideoStream,FPS
 USE_PICAMERA = True
 INPUT_FILE = "poker.mp4"
 LABELS_FILE='cards.names'
-CONFIG_FILE='yolo-tiny-cards.cfg'
+CONFIG_FILE='yolo_tiny-cards.cfg'
 WEIGHTS_FILE='yolo-tiny-cards_best.weights'
 CONFIDENCE_THRESHOLD=0.75
 NMS_THRESHOLD = 0.4
